@@ -12,7 +12,7 @@ document.addEventListener('mousemove', (e) => {
 
 // Wrong End Glitch
 
-const subtitle = document.querySelector('.subtitle');
+const subtitle = document.querySelector('.blood-text');
 const creepyMessages = [
     "It's all your fault!",
     "I will make your life miserable for what you did...",
