@@ -1,6 +1,8 @@
 // Mouse Flicker
 
 const vignette = document.querySelector('.vignette');
+let mouseX = 50;
+let mouseY = 50;
 
 document.addEventListener('mousemove', (e) => {
     const x = (e.clientX / window.innerWidth) * 100;
