@@ -54,6 +54,11 @@ body {
     text-shadow: 0 0 5px #4b0000;
 }
 
+.darkening {
+    color: #ff0000;
+    text-shadow: 0 0 5px #4b0000;
+}
+
 .subtitle {
     display: grid;
     place-items: center;
