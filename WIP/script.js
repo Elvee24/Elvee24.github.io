@@ -8,7 +8,7 @@ document.addEventListener('mousemove', (e) => {
     const x = (e.clientX / window.innerWidth) * 100;
     const y = (e.clientY / window.innerHeight) * 100;
     
-    vignette.style.background = `radial-gradient(circle at ${x}% ${y}%, transparent 10%, rgba(0,0,0,0.95) 50%)`;
+    vignette.style.background = `radial-gradient(circle at ${x}% ${y}%, transparent 10%, rgba(0,0,0,0.95) 30%)`;
 });
 
     setInterval(() => {
