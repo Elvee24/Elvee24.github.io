@@ -78,7 +78,7 @@ body {
 }
 
 .chalk-surface ul {
-    list-style-type: '† ';
+    list-style-type: 'none';
     color: #cecece;
     filter: blur(0.3px);
     line-height: 1.6;
