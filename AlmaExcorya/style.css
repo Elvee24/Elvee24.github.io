@@ -24,17 +24,6 @@ body {
     animation: flicker 4s infinite;
 }
 
-.main-container {
-    max-width: 600px;
-    width: 90%;
-    background: rgba(20, 20, 20, 0.85);
-    border: 2px solid #3a0000;
-    padding: 2rem;
-    box-shadow: 0 0 20px #5e0000;
-    position: relative;
-    z-index: 5;
-}
-
 .glitch {
     font-size: 3rem;
     color: #8b0000;
