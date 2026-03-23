@@ -51,6 +51,7 @@ body {
 }
 
 .content-box.chalkboard {
+    font-family: 'Finger Paint';
     background: #2a1d15;
     border: 10px solid #1a120d;
     padding: 10px;
