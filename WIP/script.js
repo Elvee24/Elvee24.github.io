@@ -31,7 +31,7 @@ function triggerGlitch() {
     setTimeout(() => {
         subtitle.innerText = originalText;
         subtitle.style.color = "#d1d1d1";
-    }, 200);
+    }, 1000);
 }
 
 setInterval(() => {
