@@ -5,6 +5,14 @@ const vignette = document.querySelector('.vignette');
 document.addEventListener('mousemove', (e) => {
     const x = (e.clientX / window.innerWidth) * 100;
     const y = (e.clientY / window.innerHeight) * 100;
+
+    setInterval(() => {
+    const jitter = (Math.random() - 0.5) * 1.5;
+    const flickerDepth = Math.random() > 0.9 ? 70 : 40;
+    const opacity = Math.random() > 0.95 ? 0.2 : 1;
+    
+    const x = mouseX + jitter;
+    const y = mouseY + jitter;
     
     vignette.style.background = `radial-gradient(circle at ${x}% ${y}%, transparent 10%, rgba(0,0,0,0.95) 50%)`;
 });
