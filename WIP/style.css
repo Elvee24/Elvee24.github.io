@@ -54,6 +54,12 @@ body {
     text-shadow: 0 0 5px #4b0000;
 }
 
+.subtitle {
+    display: grid;
+    place-items: center;
+    margin-bottom: 4rem;
+}
+
 .section-title {
     border-bottom: 1px solid #4b0000;
     padding-bottom: 5px;
