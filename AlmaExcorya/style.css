@@ -86,12 +86,13 @@ body {
     background: #4b0000;
     color: white;
     border: 1px solid #222;
-    padding: 10px 20px;
+    padding: 10px 30px;
     cursor: pointer;
     font-family: inherit;
+    text-decoration: none;
     transition: 0.3s;
-    display: block;
-    margin: 20px auto 0;
+    display: table; 
+    margin: 30px auto 10px;
 }
 
 .btn-horror:hover {
