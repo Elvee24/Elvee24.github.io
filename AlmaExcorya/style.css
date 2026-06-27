@@ -25,14 +25,11 @@ body {
 }
 
 .Logo {
-    width: 100px;
+    width: 400px;
     height: 200px;
+    justify-content: center;
     color: #8b0000;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
     margin: 0;
-    text-shadow: 2px 2px #000;
 }
 
 .blood-text {
