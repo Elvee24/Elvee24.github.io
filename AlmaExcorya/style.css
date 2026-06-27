@@ -24,9 +24,9 @@ body {
     animation: flicker 4s infinite;
 }
 
-.glitch {
-    font-family: 'Protest Revolution';
-    font-size: 5rem;
+.Logo {
+    width: 100px;
+    height: 200px;
     color: #8b0000;
     text-align: center;
     text-transform: uppercase;
