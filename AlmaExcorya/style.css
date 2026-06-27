@@ -24,10 +24,15 @@ body {
     animation: flicker 4s infinite;
 }
 
+.Title {
+    positon: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Logo {
     width: 400px;
     height: 200px;
-    justify-content: center;
     color: #8b0000;
     margin: 0;
 }
