@@ -32,7 +32,7 @@ body {
 
 .btn {
     text-decoration: none;
-    background-color: #e60000;
+    background-color: #b171f8;
     color: white;
     padding: 12px 30px;
     border-radius: 8px;
@@ -45,5 +45,5 @@ body {
 }
 
 .btn.secondary {
-    background-color: #b171f8;
+    background-color: #e60000;
 }
